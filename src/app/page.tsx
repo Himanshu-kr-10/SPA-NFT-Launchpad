@@ -38,6 +38,10 @@ export default function Home() {
   };
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-[url('/bgimage.jpeg')]">
+      <div className="flex justify-between w-[900px] p-5">
+        <div className="font-bold text-white text-xl">FOMO Launchpad</div>
+        <button className="bg-rose-500 px-4 py-2 rounded-lg text-white">Connect wallet</button>
+      </div>
       <div className="h-[500px] border rounded-2xl p-10 w-[900px] flex items-center gap-5 bg-white">
           <div className="flex flex-col gap-5 w-1/2">
             <div className="h-80 w-70 ">
